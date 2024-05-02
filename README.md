@@ -96,6 +96,6 @@ python image_source.py --trte val --da oda --gpu_id 0,1,2,3 --dset office-home -
 python image_target_oda.py --da oda --gpu_id 0,1,2,3 --dset office-home --s 0 --few_shot 3 --seed 0 --SAM --lr 0.00003 --src_seed 2019
 ```
 
-## Ⅳ.Contact
+## Ⅳ.Contact:
 
 - [gengxuli123@gmail.com](mailto:gengxuli123@gmail.com)
