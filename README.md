@@ -1,5 +1,5 @@
 # Official implementation for Bi-Classifier-few-shot-SFDA
-The official GitHub page for paper "Bi-Classifier source-free few-shot domain adaptation". This paper explores the utilization of **Bi-Classifier structure and few-shot setting** in source free domain adaptation(SFDA), demonstrating its effectiveness compared to tranditional source-free unsupervised domain adaptation(SFUDA) approaches.
+The official GitHub page for paper "Bi-Classifier source-free few-shot domain adaptation". This paper explores the utilization of **Bi-Classifier structure and few-shot setting** in source free domain adaptation(SFDA), and designs special loss functions for this structure. The result demonstrate the effectiveness of these methods compared to tranditional source-free unsupervised domain adaptation(SFUDA) approaches.
 
 ## Ⅰ.Prerequisites:
 - PyTorch >= 1.13.0 (with suitable CUDA and CuDNN version)
