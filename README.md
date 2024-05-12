@@ -53,7 +53,7 @@ python image_target_three.py --da uda --gpu_id 0 --dset office-home --s 0 --few_
 ```
 
 3. #### few-shot source-free Domain Adaptation (few-shot SFDA) on the VisDA-C dataset
-- - Train model on the source domain **Synthetic** (**s = 0**) 
+-  Train model on the source domain **Synthetic** (**s = 0**) 
 ```python
 python image_source.py --trte val --da uda --gpu_id 0,1,2,3 --dset office-home --max_epoch 50 --s 0 --seed 2019
 ```
