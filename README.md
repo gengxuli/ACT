@@ -14,7 +14,7 @@ We use four datasets:[Office], [Office-Home], [VisDA-C], [terra_incognita]; they
 
 ### 1.Office-31
 
-Office-31 dataset can be found [here](https://people.eecs.berkeley.edu/~jhoffman/domainadapt/).
+Original Office-31 dataset can be found [here](https://people.eecs.berkeley.edu/~jhoffman/domainadapt/), and it also can be downloaded [here](https://github.com/jindongwang/transferlearning/tree/master/data#office-31).
 
 ### 2.Office-Home
 
