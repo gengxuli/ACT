@@ -26,7 +26,12 @@ Office-Home dataset can be found [here](https://github.com/VisionLearningGroup/t
 
 ### 4.terra_incognita
 
-terra_incognita dataset can be found [here](https://beerys.github.io/CaltechCameraTraps/).
+terra_incognita dataset can be found [here](https://beerys.github.io/CaltechCameraTraps/). The dataset we used can be downloaded by running download.py.
+
+```python
+python download.py --data_dir=./
+```
+If some URLs do not work due to various factors, you can copy the URLs and download them manually.
 
 ## Ⅲ.Training:
 
@@ -96,6 +101,12 @@ python image_source.py --trte val --da oda --gpu_id 0,1,2,3 --dset office-home -
 python image_target_oda.py --da oda --gpu_id 0,1,2,3 --dset office-home --s 0 --few_shot 3 --seed 0 --SAM --lr 0.00003 --src_seed 2019
 ```
 
-## Ⅳ.Contact:
+## Ⅳ.Citation
+If you find this code useful for your research, please cite our papers
+```
+
+```
+
+## Ⅴ.Contact:
 
 - [gengxuli123@gmail.com](mailto:gengxuli123@gmail.com)
