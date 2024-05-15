@@ -26,7 +26,9 @@ Office-Home dataset can be found [here](https://github.com/VisionLearningGroup/t
 
 ### 4.terra_incognita
 
-terra_incognita dataset can be found [here](https://beerys.github.io/CaltechCameraTraps/). The dataset we used can be downloaded by running download.py.
+terra_incognita dataset can be found [here](https://beerys.github.io/CaltechCameraTraps/). 
+
+The dataset we used can be downloaded by running download.py.
 
 ```python
 python download.py --data_dir=./
