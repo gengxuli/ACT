@@ -179,10 +179,10 @@ def download_terra_incognita(data_dir):
 
     include_locations = ["38", "46", "100", "43"]
 
-    include_categories = [
-        "bird", "bobcat", "cat", "coyote", "dog", "empty", "opossum", "rabbit",
-        "raccoon", "squirrel"
-    ]
+    # include_categories = [
+    #     "bird", "bobcat", "cat", "coyote", "dog", "empty", "opossum", "rabbit",
+    #     "raccoon", "squirrel"
+    # ]
 
     include_categories = [
         "bobcat", "coyote", "dog", "empty", "opossum", "rabbit",
