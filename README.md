@@ -33,7 +33,7 @@ The dataset we used can be downloaded by running download.py.
 ```python
 python download.py --data_dir=./
 ```
-**Note:** [The website of terra_incognita ]([https://beerys.github.io/CaltechCameraTraps/](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz)) is not authorization now.
+**Note:** [The website of terra_incognita](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz) is not authorization now.
 We use recent download file. Details can be found in download.py.
 If some URLs do not work due to various factors, you can copy the URLs and download them manually.
 
