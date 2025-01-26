@@ -123,7 +123,3 @@ If you find this code useful for your research, please cite our papers
 ```
 
 ```
-
-## Ⅶ.Contact:
-
-- [gengxuli123@gmail.com](mailto:gengxuli123@gmail.com)
