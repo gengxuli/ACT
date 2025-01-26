@@ -12,6 +12,8 @@ The official GitHub page for paper "Asymmetric Co-Training for Source-Free Few-S
 
 <img src="figs/ACT.jpg" width="600"/>
 
+Details of the framework of our model are shown in our paper.
+
 ## Ⅲ.Dataset:
 
 We use four datasets:[Office], [Office-Home], [VisDA-C], [terra_incognita]; they can be downloaded from the official websites, and modify the path of images in each '.txt' under the folder './data/'. And how to generate such txt files could be found in https://github.com/tim-learn/Generate_list
