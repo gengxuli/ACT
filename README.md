@@ -8,7 +8,11 @@ The official GitHub page for paper "Asymmetric Co-Training for Source-Free Few-S
 - Numpy, argparse, scipy, PIL
 - sklearn, opencv-python, tqdm
 
-## Ⅱ.Dataset:
+## Ⅱ.Framework:  
+
+<img src="figs/shot.jpg" width="600"/>
+
+## Ⅲ.Dataset:
 
 We use four datasets:[Office], [Office-Home], [VisDA-C], [terra_incognita]; they can be downloaded from the official websites, and modify the path of images in each '.txt' under the folder './data/'. And how to generate such txt files could be found in https://github.com/tim-learn/Generate_list
 
@@ -38,7 +42,7 @@ We use recent download file. Details can be found in download.py.
 
 If some URLs do not work due to various factors, you can copy the URLs and download them manually.
 
-## Ⅲ.Training:
+## Ⅳ.Training:
 
 1. #### few-shot source-free Domain Adaptation (few-shot SFDA) on the Office dataset
 - Train model on the source domain **A** (**s = 0**)
@@ -106,12 +110,12 @@ python image_source.py --trte val --da oda --gpu_id 0,1,2,3 --dset office-home -
 python image_target_oda.py --da oda --gpu_id 0,1,2,3 --dset office-home --s 0 --few_shot 3 --seed 0 --SAM --lr 0.00003 --src_seed 2019
 ```
 
-## Ⅳ.Citation
+## Ⅴ.Citation
 If you find this code useful for your research, please cite our papers
 ```
 
 ```
 
-## Ⅴ.Contact:
+## Ⅵ.Contact:
 
 - [gengxuli123@gmail.com](mailto:gengxuli123@gmail.com)
