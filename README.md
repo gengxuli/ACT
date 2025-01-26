@@ -26,7 +26,7 @@ We use four datasets:[Office], [Office-Home], [VisDA-C], [terra_incognita]; they
 
 ### 1.Office-31
 
-Original Office-31 dataset can be found [here](https://people.eecs.berkeley.edu/~jhoffman/domainadapt/), and it also can be downloaded [here](https://github.com/jindongwang/transferlearning/tree/master/data#office-31).
+Original Office-31 dataset can be found [here](https://people.eecs.berkeley.edu/~jhoffman/domainadapt/)
 
 ### 2.Office-Home
 
@@ -35,6 +35,8 @@ Office-Home dataset can be found [here](http://hemanthdv.org/OfficeHome-Dataset/
 ### 3.VisDA-C
 
 Office-Home dataset can be found [here](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification).
+
+⚠️ **Note:** If some resource of the datesets above can not be downloaded using the original website, you can download it in [here](https://github.com/jindongwang/transferlearning/tree/master/data).
 
 ### 4.terra_incognita
 
@@ -45,7 +47,7 @@ The dataset we used can be downloaded by running download.py.
 ```python
 python download.py --data_dir=./
 ```
-⚠️ **Note:** [The website of terra_incognita](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz) is not authorization now.
+⚠️ **Note:** The website of [terra_incognita](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz) is not authorization now.
 We use recent download file. Details can be found in download.py.
 
 If some URLs do not work due to various factors, you can copy the URLs and download them manually.
