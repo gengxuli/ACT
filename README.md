@@ -10,7 +10,7 @@ The official GitHub page for paper "Asymmetric Co-Training for Source-Free Few-S
 
 ## Ⅱ.Framework:  
 
-<img src="figs/shot.jpg" width="600"/>
+<img src="figs/ACT.jpg" width="600"/>
 
 ## Ⅲ.Dataset:
 
