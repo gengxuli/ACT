@@ -1,5 +1,5 @@
 # Asymmetric Co-Training for Source-Free Few-Shot Domain Adaptation
-The official GitHub page for paper "Asymmetric Co-Training for Source-Free Few-Shot Domain Adaptation". This paper explores the utilization of **Asymmetric Co-Training** for Source-Free Few-Shot domain adaptation, and designs special loss functions. The result demonstrate the effectiveness of our method compared to traditional unsupervised domain adaptation(UDA) and source-free unsupervised domain adaptation(SFUDA) approaches.
+The official GitHub page for paper ["Asymmetric Co-Training for Source-Free Few-Shot Domain Adaptation"](https://arxiv.org/abs/2502.14214). This paper explores the utilization of **Asymmetric Co-Training** for Source-Free Few-Shot domain adaptation, and designs special loss functions. The result demonstrate the effectiveness of our method compared to traditional unsupervised domain adaptation(UDA) and source-free unsupervised domain adaptation(SFUDA) approaches.
 
 ## Ⅰ.Prerequisites:
 - PyTorch >= 1.13.0 (with suitable CUDA and CuDNN version)
