@@ -123,10 +123,12 @@ python image_target_oda.py --da oda --gpu_id 0 --dset office-home --s 0 --few_sh
 ## Ⅵ.Citation
 If you find this code useful for your research, please cite our papers
 ```
-@article{li2025asymmetric,
-  title={Asymmetric Co-Training for Source-Free Few-Shot Domain Adaptation},
+@inproceedings{li2025asymmetric,
+  title={Asymmetric Co-training for Source-Free Few-Shot Domain Adaptation},
   author={Li, Gengxu and Wu, Yuan},
-  journal={arXiv preprint arXiv:2502.14214},
-  year={2025}
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={306--319},
+  year={2025},
+  organization={Springer}
 }
 ```
